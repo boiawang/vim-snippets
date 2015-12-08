@@ -1,18 +1,24 @@
 # Angular HTML
 snippet rep
-	div(ng-repeat='${1} in ${2}')
+	ng-repeat="${1} in ${2}"
 
 snippet repf
-	div(ng-repeat='${1} in ${2}' | ${3})
+	div(ng-repeat="${1} in ${2}" | ${3})
 
 snippet repi
-	div(ng-repeat='${1} in ${2}' track by $index)
+	div(ng-repeat="${1} in ${2}" track by $index)
 
 snippet hide
-	div(ng-hide='${1}')
+	div(ng-hide="${1}")
 
 snippet show
-	div(ng-show='${1}')
+	div(ng-show="${1}")
 
 snippet if
-	div(ng-if='${1}')
+	div(ng-if="${1}")
+
+snippet .
+	class="${1}"
+
+snippet #
+	id="${1}"
